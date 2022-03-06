@@ -1,24 +1,12 @@
 # E-Commerce Backend
 ## Deployment
-* [GitHub Repository](https://github.com/cn-kp/Employee-Tracker)
+* [GitHub Repository](https://github.com/cn-kp/Ecommerce-app)
 
 ## Description
 
-This program is created to view data from a MYSQL database based on the filtered requirements. This is a terminal based code and when loaded, the user is prompted with a series of interactions. They can choose to view by the following functionalities: 
-* View all Departments
-* View all Roles
-* View all Employees
-* Add a Department
-* Add a Role
-* Add an Employee
-* Update an Employee Role
-* Update an Employee Manager
-* View Employees by Manager
-* View Employees by Department
-* Delete Departments, Roles, or Employees
-* View the Total Utilized Budget of a Department
+This program is created to view data from a Sequelize and MYSQL database for an E-commerce site. The database contains information about products, categories and tags and relationship are structured, such that every product is associated with a category and every price tag has a relationship with the product and tag category.
 
-Each prompt will display data accordingly.
+The program interacts with the database to show, create, update and delete products and categories based on the id. This is done respectively using a get, post, put and delete methods.
 ## Third Party Libraries
 
 Express.js
