@@ -1,6 +1,6 @@
 # E-Commerce Backend
 ## Deployment
-* [GitHub Repository](https://github.com/cn-kp/Ecommerce-app)
+* [GitHub Repository](https://github.com/cn-kp/Ecommerce-backend)
 
 ## Description
 
